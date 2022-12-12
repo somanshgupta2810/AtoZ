@@ -1,9 +1,9 @@
 import React from "react";
 import C from "./C";
-function B({ count, setCount }) {
+function B() {
   return (
     <div className="bg-green-300 p-7 min-h-screen">
-      <C count={count} setCount={setCount} />
+      <C />
     </div>
   );
 }
